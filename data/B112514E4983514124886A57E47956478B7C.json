@@ -1,0 +1,1811 @@
+{
+    "uid": "B112514E4983514124886A57E47956478B7C",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Scene Test",
+        "type": "vn.scene",
+        "parentId": "F2A32AF91705654D335908E4BA47B617B2B5",
+        "chapterUid": "F2A32AF91705654D335908E4BA47B617B2B5",
+        "order": 0,
+        "commands": [
+            {
+                "id": "gs.ResetVariables",
+                "params": {
+                    "scope": 0,
+                    "scene": {
+                        "uid": "F2A32AF91705654D335908E4BA47B617B2B5",
+                        "name": "Chapter test"
+                    },
+                    "type": 0,
+                    "target": 0,
+                    "range": {
+                        "start": 1,
+                        "end": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "90FF51078DA2144F356B05A387A7347A97D4",
+                "indent": 0
+            },
+            {
+                "id": "gs.ChangeNumberVariables",
+                "params": {
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "InputNumberResult",
+                        "index": 0,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 0,
+                    "source": 1,
+                    "sourceValue": 0,
+                    "sourceRandom": {
+                        "start": 1,
+                        "end": 1
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "BCBA8D15513C4241D92A0436A578DCF7A3AE",
+                "indent": 0
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "InputNumberResult",
+                        "index": 0,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValue": 1,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "9DB489821113B3454F5AB89406D71618AEB5",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "UNO"
+                },
+                "uid": "DDD680EE37FD784F6B89C284C2CD3D5F4D44",
+                "indent": 1
+            },
+            {
+                "id": "gs.SetTargetMessage",
+                "params": {
+                    "id": "gameMessage_message",
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "type": 1,
+                    "clear": 0
+                },
+                "uid": "B9066F9E142E8849407B097333012717D428",
+                "indent": 1
+            },
+            {
+                "id": "gs.CreateMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 100
+                        }
+                    }
+                },
+                "uid": "6C15BB8D79599740703918062291BCF88681",
+                "indent": 1
+            },
+            {
+                "id": "gs.MessageSettings",
+                "params": {
+                    "useCharacterColor": 0,
+                    "paragraphSpacing": 0,
+                    "backlog": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "linePadding": 6,
+                    "lineHeight": 0,
+                    "lineSpacing": 0,
+                    "smallCaps": 0,
+                    "underline": 0,
+                    "strikeThrough": 0,
+                    "autoErase": 0,
+                    "waitAtEnd": 1,
+                    "font": "Verdana",
+                    "size": 40,
+                    "outline": 0,
+                    "outlineSize": 4,
+                    "shadow": 0,
+                    "shadowOffsetX": 1,
+                    "shadowOffsetY": 1,
+                    "color": {
+                        "red": 30,
+                        "green": 255,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "autoErase": 0,
+                        "waitAtEnd": 0,
+                        "backlog": 1,
+                        "font": 0,
+                        "size": 1,
+                        "color": 0,
+                        "useCharacterColor": 1,
+                        "bold": 1,
+                        "italic": 0,
+                        "smallCaps": 1,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineHeight": 1,
+                        "lineSpacing": 1,
+                        "linePadding": 1,
+                        "paragraphSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 1,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "F2139AC23F3906464A9AFC4835C3C9FB9590",
+                "indent": 1,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 0,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": ">  Hello"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "239317D88970B34F2E9A8265AC616A248337",
+                "indent": 1,
+                "expanded": true
+            },
+            {
+                "id": "gs.ConditionElseIf",
+                "params": {
+                    "variable": {
+                        "name": "InputNumberResult",
+                        "index": 0,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValue": 2,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "2322F5CA2668F747B5797C833AB7791094C3",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "DUE"
+                },
+                "uid": "7E1D7A9D4AC5E44B346B1680694D0F5E2211",
+                "indent": 1
+            },
+            {
+                "id": "gs.SetTargetMessage",
+                "params": {
+                    "id": "gameMessage_message",
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "type": 1,
+                    "clear": 0
+                },
+                "uid": "A2EA3CB1789F0743031A7D63ADCCF45BA7CC",
+                "indent": 1
+            },
+            {
+                "id": "gs.CreateMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 100
+                        }
+                    }
+                },
+                "uid": "6AD4F1F25A2596437A889776A4FCFC0AFE03",
+                "indent": 1
+            },
+            {
+                "id": "gs.MessageSettings",
+                "params": {
+                    "useCharacterColor": 0,
+                    "paragraphSpacing": 0,
+                    "backlog": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "linePadding": 6,
+                    "lineHeight": 0,
+                    "lineSpacing": 0,
+                    "smallCaps": 0,
+                    "underline": 0,
+                    "strikeThrough": 0,
+                    "autoErase": 0,
+                    "waitAtEnd": 1,
+                    "font": "Verdana",
+                    "size": 40,
+                    "outline": 0,
+                    "outlineSize": 4,
+                    "shadow": 0,
+                    "shadowOffsetX": 1,
+                    "shadowOffsetY": 1,
+                    "color": {
+                        "red": 30,
+                        "green": 255,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "autoErase": 0,
+                        "waitAtEnd": 0,
+                        "backlog": 1,
+                        "font": 0,
+                        "size": 1,
+                        "color": 0,
+                        "useCharacterColor": 1,
+                        "bold": 1,
+                        "italic": 0,
+                        "smallCaps": 1,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineHeight": 1,
+                        "lineSpacing": 1,
+                        "linePadding": 1,
+                        "paragraphSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 1,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "159985F283AB4848F208114867A55140A2C7",
+                "indent": 1,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": ">  Hi"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "CA8AC45B540808443179930901F1204A10CF",
+                "indent": 1,
+                "expanded": true
+            },
+            {
+                "id": "gs.ConditionElseIf",
+                "params": {
+                    "variable": {
+                        "name": "InputNumberResult",
+                        "index": 0,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValue": 3,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "A184677186577142EA383D22D9D5AE493BC7",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "TRE"
+                },
+                "uid": "BE4FB3C69B901441C78BAEC0A89D59B4D2B9",
+                "indent": 1
+            },
+            {
+                "id": "gs.SetTargetMessage",
+                "params": {
+                    "id": "gameMessage_message",
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "type": 1,
+                    "clear": 0
+                },
+                "uid": "D9B03DCA4226224A8A681A810860212ABFC9",
+                "indent": 1
+            },
+            {
+                "id": "gs.CreateMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 100
+                        }
+                    }
+                },
+                "uid": "DA3FF2202623F84C744ACA12F8D78712282C",
+                "indent": 1
+            },
+            {
+                "id": "gs.MessageSettings",
+                "params": {
+                    "useCharacterColor": 0,
+                    "paragraphSpacing": 0,
+                    "backlog": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "linePadding": 6,
+                    "lineHeight": 0,
+                    "lineSpacing": 0,
+                    "smallCaps": 0,
+                    "underline": 0,
+                    "strikeThrough": 0,
+                    "autoErase": 0,
+                    "waitAtEnd": 1,
+                    "font": "Verdana",
+                    "size": 40,
+                    "outline": 0,
+                    "outlineSize": 4,
+                    "shadow": 0,
+                    "shadowOffsetX": 1,
+                    "shadowOffsetY": 1,
+                    "color": {
+                        "red": 30,
+                        "green": 255,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "autoErase": 0,
+                        "waitAtEnd": 0,
+                        "backlog": 1,
+                        "font": 0,
+                        "size": 1,
+                        "color": 0,
+                        "useCharacterColor": 1,
+                        "bold": 1,
+                        "italic": 0,
+                        "smallCaps": 1,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineHeight": 1,
+                        "lineSpacing": 1,
+                        "linePadding": 1,
+                        "paragraphSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 1,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "6FC823224FEEB14CD42907A4BEB644C5D9BF",
+                "indent": 1,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": ">  Welcome stranger."
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "D35071084987C7471E58AAE47A4AE8079E36",
+                "indent": 1,
+                "expanded": true
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "1"
+                },
+                "uid": "2C0E9EF681294241EC4BAFC15EBBE88BD4DF",
+                "indent": 0
+            },
+            {
+                "id": "gs.SetTargetMessage",
+                "params": {
+                    "id": "gameMessage_message",
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1,
+                    "type": 1,
+                    "clear": 0
+                },
+                "uid": "29F5242F12D311470B9873A23F01C3DB1314",
+                "indent": 0
+            },
+            {
+                "id": "gs.CreateMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1,
+                    "box": {
+                        "x": 0,
+                        "y": 29,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 300,
+                            "height": 100
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "B940AE8E1D9B734E0B9B6E12BE90B48F4D71",
+                "indent": 0
+            },
+            {
+                "id": "gs.MessageSettings",
+                "params": {
+                    "useCharacterColor": 0,
+                    "paragraphSpacing": 0,
+                    "backlog": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "linePadding": 6,
+                    "lineHeight": 0,
+                    "lineSpacing": 0,
+                    "smallCaps": 0,
+                    "underline": 0,
+                    "strikeThrough": 0,
+                    "autoErase": 0,
+                    "waitAtEnd": 1,
+                    "font": "Verdana",
+                    "size": 40,
+                    "outline": 0,
+                    "outlineSize": 4,
+                    "shadow": 0,
+                    "shadowOffsetX": 1,
+                    "shadowOffsetY": 1,
+                    "color": {
+                        "red": 30,
+                        "green": 255,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "autoErase": 0,
+                        "waitAtEnd": 0,
+                        "backlog": 1,
+                        "font": 0,
+                        "size": 1,
+                        "color": 0,
+                        "useCharacterColor": 1,
+                        "bold": 1,
+                        "italic": 0,
+                        "smallCaps": 1,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineHeight": 1,
+                        "lineSpacing": 1,
+                        "linePadding": 1,
+                        "paragraphSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 1,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "95A2AF58404228438E3846390594F9D6A77B",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "> First question\n1 - option one\n2- option two"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "439525C57E34B54C6528DC8746FC9B9398C9",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "QuestOne"
+                },
+                "uid": "8B7702077778E547CA9A2DC8C0B2B6F76DAF",
+                "indent": 0
+            },
+            {
+                "id": "gs.WaitForInput",
+                "params": {
+                    "key": 100,
+                    "state": 1,
+                    "action": {
+                        "type": 0,
+                        "data": {
+                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
+                            "commonEventId": 0
+                        }
+                    }
+                },
+                "uid": "BBB374B9613BF74EBE48678690FF51DA2B18",
+                "indent": 0
+            },
+            {
+                "id": "gs.GetInputData",
+                "params": {
+                    "field": 149,
+                    "state": 0,
+                    "targetVariable": {
+                        "name": "conditionOne",
+                        "index": 1,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "7856E49F65E7054F6E497CA86BCD7FEBF918",
+                "indent": 0
+            },
+            {
+                "id": "gs.GetInputData",
+                "params": {
+                    "field": 150,
+                    "state": 0,
+                    "targetVariable": {
+                        "name": "conditionTwo",
+                        "index": 2,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "454816E1339DF34D9A692C812ADF1162E442",
+                "indent": 0
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "conditionOne",
+                        "index": 1,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValue": 1,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "B6F2424B300BA748971BF2076908DCF583E1",
+                "indent": 0
+            },
+            {
+                "id": "gs.SetTargetMessage",
+                "params": {
+                    "id": "gameMessage_message",
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 2,
+                    "type": 1,
+                    "clear": 0
+                },
+                "uid": "3ADF5FCB6700E4476A1AE643363298E889FF",
+                "indent": 0
+            },
+            {
+                "id": "gs.CreateMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 2,
+                    "box": {
+                        "x": 0,
+                        "y": 116,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 300,
+                            "height": 100
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "4B02FD303EFD724C258BB2619170B34CFB97",
+                "indent": 0
+            },
+            {
+                "id": "gs.MessageSettings",
+                "params": {
+                    "useCharacterColor": 0,
+                    "paragraphSpacing": 0,
+                    "backlog": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "linePadding": 6,
+                    "lineHeight": 0,
+                    "lineSpacing": 0,
+                    "smallCaps": 0,
+                    "underline": 0,
+                    "strikeThrough": 0,
+                    "autoErase": 0,
+                    "waitAtEnd": 1,
+                    "font": "Verdana",
+                    "size": 40,
+                    "outline": 0,
+                    "outlineSize": 4,
+                    "shadow": 0,
+                    "shadowOffsetX": 1,
+                    "shadowOffsetY": 1,
+                    "color": {
+                        "red": 30,
+                        "green": 255,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "autoErase": 0,
+                        "waitAtEnd": 0,
+                        "backlog": 1,
+                        "font": 0,
+                        "size": 1,
+                        "color": 0,
+                        "useCharacterColor": 1,
+                        "bold": 1,
+                        "italic": 0,
+                        "smallCaps": 1,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineHeight": 1,
+                        "lineSpacing": 1,
+                        "linePadding": 1,
+                        "paragraphSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 1,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "FAFB0F7266DD2643576B7164240750FB9417",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "> AnswerOne"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "AAC9344C68EB134515595CC3B77330ADD6E5",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "2"
+                },
+                "uid": "2DCDC44F1679E344CD4B3673F3678BB5E181",
+                "indent": 0
+            },
+            {
+                "id": "gs.SetTargetMessage",
+                "params": {
+                    "id": "gameMessage_message",
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 3,
+                    "type": 1,
+                    "clear": 0
+                },
+                "uid": "4A7A3A5C5292D842532A90B7632A3242A9F3",
+                "indent": 0
+            },
+            {
+                "id": "gs.CreateMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 3,
+                    "box": {
+                        "x": 0,
+                        "y": 159,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 300,
+                            "height": 100
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "5E302FB01E58C54C2A783B983B1B39B17396",
+                "indent": 0
+            },
+            {
+                "id": "gs.MessageSettings",
+                "params": {
+                    "useCharacterColor": 0,
+                    "paragraphSpacing": 0,
+                    "backlog": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "linePadding": 6,
+                    "lineHeight": 0,
+                    "lineSpacing": 0,
+                    "smallCaps": 0,
+                    "underline": 0,
+                    "strikeThrough": 0,
+                    "autoErase": 0,
+                    "waitAtEnd": 1,
+                    "font": "Verdana",
+                    "size": 40,
+                    "outline": 0,
+                    "outlineSize": 4,
+                    "shadow": 0,
+                    "shadowOffsetX": 1,
+                    "shadowOffsetY": 1,
+                    "color": {
+                        "red": 30,
+                        "green": 255,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "autoErase": 0,
+                        "waitAtEnd": 0,
+                        "backlog": 1,
+                        "font": 0,
+                        "size": 1,
+                        "color": 0,
+                        "useCharacterColor": 1,
+                        "bold": 1,
+                        "italic": 0,
+                        "smallCaps": 1,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineHeight": 1,
+                        "lineSpacing": 1,
+                        "linePadding": 1,
+                        "paragraphSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 1,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "BE6F79564665454E5A1A86B781F422CD20F0",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "> Second question\n1 - option one\n2- option two"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "B567EB1E222E764DAF49EDA5E7FA39134EB1",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "QuestTwo"
+                },
+                "uid": "9A48DB7999D02344F32807B636D674F5D615",
+                "indent": 0
+            },
+            {
+                "id": "gs.WaitForInput",
+                "params": {
+                    "key": 100,
+                    "state": 1,
+                    "action": {
+                        "type": 0,
+                        "data": {
+                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
+                            "commonEventId": 0
+                        }
+                    }
+                },
+                "uid": "62E9A3751B08264655882CF1D3FFF3E24630",
+                "indent": 0
+            },
+            {
+                "id": "gs.GetInputData",
+                "params": {
+                    "field": 149,
+                    "state": 0,
+                    "targetVariable": {
+                        "name": "conditionOne",
+                        "index": 1,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "638E0E1D488AD34F5B9B61B6E7E86596BFD9",
+                "indent": 0
+            },
+            {
+                "id": "gs.GetInputData",
+                "params": {
+                    "field": 150,
+                    "state": 0,
+                    "targetVariable": {
+                        "name": "conditionTwo",
+                        "index": 2,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "0C7C93955A83154F204A83247CB1DEEAD1FC",
+                "indent": 0
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "conditionOne",
+                        "index": 1,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValue": 1,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "3B2710C081DC1142D86B59F8FFCF10895873",
+                "indent": 0
+            },
+            {
+                "id": "gs.SetTargetMessage",
+                "params": {
+                    "id": "gameMessage_message",
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 4,
+                    "type": 1,
+                    "clear": 0
+                },
+                "uid": "7AF68E6E2F4AF74A96294EC4EEFCDB1EC9D6",
+                "indent": 0
+            },
+            {
+                "id": "gs.CreateMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 4,
+                    "box": {
+                        "x": 0,
+                        "y": 252,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 300,
+                            "height": 100
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "1BD279827A4CD241B82AF1D4CA2843431DD8",
+                "indent": 0
+            },
+            {
+                "id": "gs.MessageSettings",
+                "params": {
+                    "useCharacterColor": 0,
+                    "paragraphSpacing": 0,
+                    "backlog": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "linePadding": 6,
+                    "lineHeight": 0,
+                    "lineSpacing": 0,
+                    "smallCaps": 0,
+                    "underline": 0,
+                    "strikeThrough": 0,
+                    "autoErase": 0,
+                    "waitAtEnd": 1,
+                    "font": "Verdana",
+                    "size": 40,
+                    "outline": 0,
+                    "outlineSize": 4,
+                    "shadow": 0,
+                    "shadowOffsetX": 1,
+                    "shadowOffsetY": 1,
+                    "color": {
+                        "red": 30,
+                        "green": 255,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "autoErase": 0,
+                        "waitAtEnd": 0,
+                        "backlog": 1,
+                        "font": 0,
+                        "size": 1,
+                        "color": 0,
+                        "useCharacterColor": 1,
+                        "bold": 1,
+                        "italic": 0,
+                        "smallCaps": 1,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineHeight": 1,
+                        "lineSpacing": 1,
+                        "linePadding": 1,
+                        "paragraphSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 1,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "8464C068189F814209482BF46C850F5BBDF0",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "> AnswerTwo"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "B2F91C714271F545E04B8F72957916B91823",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "3"
+                },
+                "uid": "84462D8592E1A449024A7CC57B53B1A6186B",
+                "indent": 0
+            },
+            {
+                "id": "gs.SetTargetMessage",
+                "params": {
+                    "id": "gameMessage_message",
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 6,
+                    "type": 1,
+                    "clear": 0
+                },
+                "uid": "6EABFE1D27FC554413799C717DA8E4EF5B67",
+                "indent": 0
+            },
+            {
+                "id": "gs.CreateMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 6,
+                    "box": {
+                        "x": 0,
+                        "y": 306,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 300,
+                            "height": 100
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "0F6C875D8CEE714A7A489A32E452AFAF13CC",
+                "indent": 0
+            },
+            {
+                "id": "gs.MessageSettings",
+                "params": {
+                    "useCharacterColor": 0,
+                    "paragraphSpacing": 0,
+                    "backlog": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "linePadding": 6,
+                    "lineHeight": 0,
+                    "lineSpacing": 0,
+                    "smallCaps": 0,
+                    "underline": 0,
+                    "strikeThrough": 0,
+                    "autoErase": 0,
+                    "waitAtEnd": 1,
+                    "font": "Verdana",
+                    "size": 40,
+                    "outline": 0,
+                    "outlineSize": 4,
+                    "shadow": 0,
+                    "shadowOffsetX": 1,
+                    "shadowOffsetY": 1,
+                    "color": {
+                        "red": 30,
+                        "green": 255,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "autoErase": 0,
+                        "waitAtEnd": 0,
+                        "backlog": 1,
+                        "font": 0,
+                        "size": 1,
+                        "color": 0,
+                        "useCharacterColor": 1,
+                        "bold": 1,
+                        "italic": 0,
+                        "smallCaps": 1,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineHeight": 1,
+                        "lineSpacing": 1,
+                        "linePadding": 1,
+                        "paragraphSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 1,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "BB5895D6135EE548F01B052257DFEA046D37",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "> third question\n1 - option one\n2- option two"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "940D3A59208104403B4BEDE0966466F461DC",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "QuestTwo"
+                },
+                "uid": "72C969C47062D4458A98476943E4701C7B17",
+                "indent": 0
+            },
+            {
+                "id": "gs.WaitForInput",
+                "params": {
+                    "key": 100,
+                    "state": 1,
+                    "action": {
+                        "type": 0,
+                        "data": {
+                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
+                            "commonEventId": 0
+                        }
+                    }
+                },
+                "uid": "F6A4512755B1244B293B64C2E5305457ABBD",
+                "indent": 0
+            },
+            {
+                "id": "gs.GetInputData",
+                "params": {
+                    "field": 149,
+                    "state": 0,
+                    "targetVariable": {
+                        "name": "conditionOne",
+                        "index": 1,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "A6610CE5010AA34A995991A6B01C801EB9C8",
+                "indent": 0
+            },
+            {
+                "id": "gs.GetInputData",
+                "params": {
+                    "field": 150,
+                    "state": 0,
+                    "targetVariable": {
+                        "name": "conditionTwo",
+                        "index": 2,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "9BB385AE4B2D3149F77AC76020025EA36740",
+                "indent": 0
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "conditionOne",
+                        "index": 1,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValue": 1,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "71207D7A1AC92946829B42922EEACFAD744F",
+                "indent": 0
+            },
+            {
+                "id": "gs.SetTargetMessage",
+                "params": {
+                    "id": "gameMessage_message",
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 5,
+                    "type": 1,
+                    "clear": 0
+                },
+                "uid": "0ABB74884D644041354B6FA94029DF9B9FA0",
+                "indent": 0
+            },
+            {
+                "id": "gs.CreateMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 5,
+                    "box": {
+                        "x": 0,
+                        "y": 399,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 1213,
+                            "height": 321
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "834B9AC293640847F9284EF23096298A3EBA",
+                "indent": 0
+            },
+            {
+                "id": "gs.MessageSettings",
+                "params": {
+                    "useCharacterColor": 0,
+                    "paragraphSpacing": 0,
+                    "backlog": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "linePadding": 6,
+                    "lineHeight": 0,
+                    "lineSpacing": 0,
+                    "smallCaps": 0,
+                    "underline": 0,
+                    "strikeThrough": 0,
+                    "autoErase": 0,
+                    "waitAtEnd": 1,
+                    "font": "Verdana",
+                    "size": 40,
+                    "outline": 0,
+                    "outlineSize": 4,
+                    "shadow": 0,
+                    "shadowOffsetX": 1,
+                    "shadowOffsetY": 1,
+                    "color": {
+                        "red": 30,
+                        "green": 255,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "autoErase": 0,
+                        "waitAtEnd": 0,
+                        "backlog": 1,
+                        "font": 0,
+                        "size": 1,
+                        "color": 0,
+                        "useCharacterColor": 1,
+                        "bold": 1,
+                        "italic": 0,
+                        "smallCaps": 1,
+                        "underline": 1,
+                        "strikeThrough": 1,
+                        "lineHeight": 1,
+                        "lineSpacing": 1,
+                        "linePadding": 1,
+                        "paragraphSpacing": 1,
+                        "outline": 0,
+                        "outlineColor": 1,
+                        "outlineSize": 1,
+                        "shadow": 1,
+                        "shadowColor": 1,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "996A583193B8434B7E3810927AAFFE3026B1",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "> AnswerThree, I have now run out of space for the text. other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text other text, AND NOW?"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "CC0BF7A948F62341501AEFD9C1AC5472FD95",
+                "indent": 0,
+                "expanded": true
+            }
+        ],
+        "livePreviewDisabled": false,
+        "numberVariables": [
+            {
+                "name": "InputNumberResult",
+                "index": 0,
+                "scope": 0,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "conditionOne",
+                "index": 1,
+                "scope": 0,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "conditionTwo",
+                "index": 2,
+                "scope": 0,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "",
+                "index": 3,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 4,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 5,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 6,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 7,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 8,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 9,
+                "scope": 1
+            }
+        ],
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}
